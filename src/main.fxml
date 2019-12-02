@@ -1,0 +1,12 @@
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<VBox fx:controller="Controller"
+      xmlns:fx="http://javafx.com/fxml" alignment="TOP_LEFT">
+    <style>
+        -fx-background-color:#999;
+    </style>
+    <children>
+        <Label fx:id="mainHead" text="Hello World!" style="-fx-font-size:32px;"/>
+        <Label fx:id="thisIsA32BitInt" style="-fx-font-size:24px;"/>
+    </children>
+</VBox>
